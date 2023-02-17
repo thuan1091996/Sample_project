@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "makefile.configureOnEdit": false,
+  "makefile.configureOnOpen": false,
+  "idf.adapterTargetName": "esp32",
+  "makefile.configureAfterCommand": false,
+  "files.associations": {
+    "timers.h": "c",
+    "freertos.h": "c",
+    "osal.h": "c",
+    "os_port.h": "c"
+  }
+}
