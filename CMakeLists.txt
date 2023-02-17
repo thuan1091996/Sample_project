@@ -6,6 +6,10 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
+message("====================Entering ${CMAKE_CURRENT_LIST_DIR}/actor-framework/osal ====================")
+set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/actor-framework/osal)
+message("=================================================================================================")
+
 project(main)
 
 idf_build_set_property(COMPILE_OPTIONS "-fdiagnostics-color=always" APPEND)
