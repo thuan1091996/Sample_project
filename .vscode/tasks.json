@@ -252,7 +252,7 @@
             "type": "shell",
             "isBackground": true,
             "windows": {
-                "command": "openocd.exe -c 'set ESP_RTOS none' -s scripts -f interface/jlink.cfg -f target/esp32.cfg -c init -c 'reset halt'"
+                "command": "openocd.exe -s scripts -f interface/jlink.cfg -f target/esp32.cfg -c init -c 'reset halt'"
             },
             "problemMatcher": []
         },

@@ -8,7 +8,9 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
 
 message("====================Entering ${CMAKE_CURRENT_LIST_DIR}/CMakelists.txt====================")
-set(EXTRA_COMPONENT_DIRS "${CMAKE_CURRENT_LIST_DIR}/actor-framework"  "${CMAKE_CURRENT_LIST_DIR}/actor-framework/osal" )
+set(EXTRA_COMPONENT_DIRS "${CMAKE_CURRENT_LIST_DIR}/actor-framework"
+                         "${CMAKE_CURRENT_LIST_DIR}/actor-framework/osal"
+                         "${CMAKE_CURRENT_LIST_DIR}/actor-framework/3rd-party/lwmem/lwmem" )
 
 project(main)
 
